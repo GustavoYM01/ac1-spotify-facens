@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Música para todos - Spotify</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="navigation">
+        <img
+          class="btn logo"
+          src="./imgs/spotify.svg"
+          alt="Logo Spotify"
+          onclick="toHome()"
+        />
+        <div class="mobileMenu">
+          <div id="line1"></div>
+          <div id="line2"></div>
+          <div id="line3"></div>
+        </div>
+        <div id="menuItems">
+          <a class="linkNav" href="#">Premium</a>
+          <a class="linkNav" href="#">Ajuda</a>
+          <a class="linkNav" href="#">Baixar</a>
+          <span>|</span>
+          <a class="linkNav" href="#">Inscrever-se</a>
+          <a class="linkNav" href="#">Entrar</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container-slider">
+          <button id="prev-button">
+            <img src="./imgs/arrow-left.svg" alt="prev-button" />
+          </button>
+          <div class="container-content">
+            <div class="slider on">
+              <h1 class="titleSlide">As melhores rádios</h1>
+              <button id="btnSlide1">
+                <div class="btn">
+                  <img
+                    id="iconeMusica"
+                    src="./imgs/music-symbol.svg"
+                    alt="ícone de música"
+                  /><span>OUÇA AGORA</span>
+                </div>
+              </button>
+            </div>
+            <div class="slider">
+              <h1 class="titleSlide">Música para todos</h1>
+              <div>
+                <button id="btn1">APROVEITE O SPOTIFY FREE</button
+                ><button id="btn2">OBTER O SPOTIFY PREMIUM</button>
+              </div>
+            </div>
+          </div>
+          <button id="next-button">
+            <img src="./imgs/arrow-right.svg" alt="next-button" />
+          </button>
+        </div>
+      </section>
+      <section id="about">
+        <div id="aboutCont">
+          <div id="imgs">
+            <img src="./imgs/img1.jpg" alt="Imagem 1" /><img
+              src="./imgs/img2.jpg"
+              alt="Imagem 2"
+            /><img src="./imgs/img3.jpg" alt="Imagem 3" /><img
+              src="./imgs/img4.jpg"
+              alt="Imagem 4"
+            />
+          </div>
+          <div id="ab-text">
+            <h2>O que o Spotify tem?</h2>
+            <h3>Músicas</h3>
+            <p>
+              O Spotify tem milhões de músicas. Escute seus sons favoritos,
+              descubra novas músicas e reúna seus favoritos em um só lugar.
+            </p>
+            <h3>Playlists</h3>
+            <p>
+              No Spotify você encontra uma playlist para cada momento. Todas
+              feitas por fanáticos e especialistas da música.
+            </p>
+            <h3>Novos lançamentos</h3>
+            <p>
+              Escute os novos lançamentos de singles e álbuns da semana e veja o
+              que está bombando no Top 50.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="about2">
+        <div>
+          <h2>Fácil</h2>
+          <h3>Buscar</h3>
+          <p>Já sabe o que quer escutar? É só procurar e apertar o play.</p>
+          <h3>Navegar</h3>
+          <p>
+            Veja os novos lançamentos, o que está bombando nas paradas e as
+            melhores playlists para o seu momento.
+          </p>
+          <h3>Descobrir</h3>
+          <p>
+            Curta músicas novas toda segunda-feira com uma playlist
+            personalizada pra você. Ou relaxe e curta uma das rádios.
+          </p>
+        </div>
+        <div id="phones">
+          <img src="./imgs/iphone1.png" alt="celular 1" /><img
+            src="./imgs/iphone2.png"
+            alt="celular 2"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="contFooter">
+        <div>
+          <img class="logo" src="./imgs/spotify.svg" alt="Logo Spotify" />
+        </div>
+        <div class="secFooter">
+          <h4>COMPANY</h4>
+          <a href="#">Sobre</a><a href="#">Empregos</a><a href="#">Imprensa</a
+          ><a href="#">Novidades</a>
+        </div>
+        <div class="secFooter">
+          <h4>COMUNIDADES</h4>
+          <a href="#">Artistas</a><a href="#">Desenvolvedores</a
+          ><a href="#">Marcas</a>
+        </div>
+        <div class="secFooter noMargin">
+          <h4>LINKS UTEIS</h4>
+          <a href="#">Ajuda</a><a href="#">Presentes</a
+          ><a href="#">Player da web</a>
+        </div>
+        <div id="socialMedia">
+          <div><img src="./imgs/instagram.png" alt="Ícone Instagram" /></div>
+          <div><img src="./imgs/twitter.png" alt="Ícone Twitter" /></div>
+          <div><img src="./imgs/facebook.png" alt="Ícone Facebook" /></div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
